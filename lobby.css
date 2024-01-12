@@ -1,0 +1,92 @@
+body{
+    background-color: #1a1a1a;
+    color: #fff;
+    background-image: url([GetPaidStock.com]-656c1c21478a5.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#form-container{
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: #262625;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#form__container__header {
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+    text-align: center;
+    background-color: #363739;
+    margin: 0;
+    font-size: 16px;
+    font-size: 300;
+    line-height: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   line-height: 10px;
+   text-transform: uppercase;
+
+  }
+
+  #form__content__wrapper{
+    padding: 20px;
+}
+
+input {
+    box-sizing: border-box;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 20px;
+    font-size: 15px;
+    background-color: #3f434a;
+    margin-top: 32px;
+  }
+ 
+ 
+  input[type='submit'] {
+        background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        border-radius: 0px;
+        display: block;
+        font-size:20px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      input[type='submit']:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+    
+ 
+  
+
+  #logo-container{
+    color:#845695;
+
+  }
+
+  #logo-container img{
+    height:100px;
+    width:auto;
+    position: fixed;
+    left:40px
+
+  }
